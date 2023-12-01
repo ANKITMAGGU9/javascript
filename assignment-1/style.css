@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.835);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#info {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    background-color: #4ce5a5;
+    border-radius: 10px;
+}
+
+#hobbies {
+    background-color: #9d2020;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#welcome-message {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#picture {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
