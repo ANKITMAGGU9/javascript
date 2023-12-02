@@ -5,11 +5,11 @@ changeContentButton.addEventListener('click', () => {
     contentToChange.innerHTML = "New Content! Clicked!";
 });
 
-const toggleImage = document.getElementById('toggleImage');
+// const toggleImage = document.getElementById('toggleImage');
 
-toggleImage.addEventListener('click', () => {
-    toggleImage.classList.toggle('bordered');
-});
+// toggleImage.addEventListener('click', () => {
+//     toggleImage.classList.toggle('bordered');
+// });
 function showPopup(imageName) {
     alert(`You clicked on ${imageName}`);
 }
