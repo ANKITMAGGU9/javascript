@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Universe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Video background container -->
+    <div class="video-container">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="background_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Content overlay -->
+        <div class="content-overlay">
+
+            <header>
+                <h1>Universe Exploration</h1>
+            </header>
+
+            <section class="images-section">
+                <div class="image-container">
+                    <img src="hubble_telescope.jpg" alt="NASA Mission Image" class="image">
+                    <button onclick="showPopup('NASA Mission')">Learn More</button>
+                </div>
+                <div class="image-container">
+                    <img src="jwst_telescope.png" alt="JWST Telescope Image" class="image">
+                    <button onclick="showPopup('JWST Telescope')">Learn More</button>
+                </div>
+                <div class="image-container">
+                    <img src="cosmos_image.jpg" alt="Cosmos Image" class="image">
+                    <button onclick="showPopup('The Cosmos')">Learn More</button>
+                </div>
+            </section>
+
+            <script src="script.js"></script>
+        </div>
+    </div>
+
+</body>
+</html>
