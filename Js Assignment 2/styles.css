@@ -3,6 +3,36 @@ body, html {
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Revamped';
+    src: url('Revamped.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h1 {
+    font-family:Revamped;
+    font-size: 50pt;
+    color: rgb(219, 221, 223);
+  }
+
+  button {
+    font-family: Revamped;
+    
+  }
+  
+h4 {
+  font-size: 20pt;
+
+}
+#second-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+
+}
 
 .video-container {
     position: fixed;
@@ -66,6 +96,23 @@ body, html {
     transform: scale(1.2); 
     overflow: hidden; 
 }
+
+.button-animation {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
 
 button {
     display: block;
